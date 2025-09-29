@@ -1,0 +1,1 @@
+datapath: alu.svo alu_if.vho caches_if.vho control_unit.svo control_unit_if.vho cpu_types_pkg.vho datapath_cache_if.vho exe_mem.svo exe_mem_if.vho forwarding_unit.svo forwarding_unit_if.vho hazard_unit.svo hazard_unit_if.vho id_exe.svo id_exe_if.vho if_id.svo if_id_if.vho imm_gen.svo imm_gen_if.vho mem_wb.svo mem_wb_if.vho register_file.svo register_file_if.vho datapath.svo
