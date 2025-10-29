@@ -1,9 +1,3 @@
-/*
-  Fatma Alagroudy
-  fatma.alagroudy@gmail.com
-
- control unit test bench
-*/
 
 // mapped needs this
 `include "control_unit_if.vh"
@@ -131,3 +125,4 @@ initial begin
   end
 
 endprogram
+
