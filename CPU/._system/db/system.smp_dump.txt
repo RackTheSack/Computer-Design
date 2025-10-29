@@ -1,0 +1,13 @@
+
+State Machine - |system|pipeline:CPU|caches:CM|dcache:DCACHE|state
+Name state.HALT state.C_STORE state.D_STORE2 state.D_STORE1 state.D_CHECK state.LOAD2 state.LOAD1 state.STORE2 state.STORE1 state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 
+state.STORE1 0 0 0 0 0 0 0 0 1 1 
+state.STORE2 0 0 0 0 0 0 0 1 0 1 
+state.LOAD1 0 0 0 0 0 0 1 0 0 1 
+state.LOAD2 0 0 0 0 0 1 0 0 0 1 
+state.D_CHECK 0 0 0 0 1 0 0 0 0 1 
+state.D_STORE1 0 0 0 1 0 0 0 0 0 1 
+state.D_STORE2 0 0 1 0 0 0 0 0 0 1 
+state.C_STORE 0 1 0 0 0 0 0 0 0 1 
+state.HALT 1 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,35 @@
+Execution Data Sweep Report File 2025_03_23_05_37_PM
+
+________________________________________________________________________________________________________________________
+LAT = 0
+
+CLK Cycles:
+# Halted at 418680 time and ran for      10466 cycles.
+
+Slow 1200mV 85C Model Fmax Summary:
+
+________________________________________________________________________________________________________________________
+LAT = 2
+
+CLK Cycles:
+# Halted at 459440 time and ran for      11485 cycles.
+
+Slow 1200mV 85C Model Fmax Summary:
+
+________________________________________________________________________________________________________________________
+LAT = 6
+
+CLK Cycles:
+# Halted at 540960 time and ran for      13523 cycles.
+
+Slow 1200mV 85C Model Fmax Summary:
+(copied from LAT=2)
+
+________________________________________________________________________________________________________________________
+LAT = 10
+
+CLK Cycles:
+# Halted at 622480 time and ran for      15561 cycles.
+
+Slow 1200mV 85C Model Fmax Summary:
+(copied from LAT=2)
