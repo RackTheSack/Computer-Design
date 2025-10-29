@@ -1,10 +1,3 @@
-/*
-  Eric Villasenor
-  evillase@gmail.com
-
-  this block holds the i and d cache
-*/
-
 
 module caches (
   input logic CLK, nRST,
@@ -35,3 +28,4 @@ module caches (
   // assign cif.daddr = dcif.dmemaddr;
 
 endmodule
+
