@@ -1,10 +1,3 @@
-/*
-  Eric Villasenor
-  evillase@gmail.com
-
-  datapath contains register file, control, hazard,
-  muxes, and glue logic for processor
-*/
 
 // data path interface
 `include "datapath_cache_if.vh"
@@ -92,20 +85,6 @@ module datapath (
       dmemload_save <= dpif.dmemload;
     end
   end
-
-
-  // logic dd_hit;
-
-
-  // always_ff @(posedge CLK or negedge nRST) begin
-
-  //   if(!nRST) begin
-  //     dd_hit <=0;
-  //   end
-  //   else begin  
-  //       dd_hit <=dpif.dhit;
-  //   end
-  // end
 
   always_ff @(posedge CLK or negedge nRST) begin
 
@@ -428,3 +407,4 @@ module datapath (
   
 
 endmodule
+
