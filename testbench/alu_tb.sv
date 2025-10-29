@@ -1,9 +1,3 @@
-/*
-  Fatma Alagroudy
-  fatma.alagroudy@gmail.com
-
-  alu test bench
-*/
 
 // mapped needs this
 `include "alu_if.vh"
@@ -106,3 +100,4 @@ initial begin
 
   end
 endprogram
+
